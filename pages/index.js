@@ -40,8 +40,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/"
-                >
+                  href="">
                   Home
                 </a>
               </li>
@@ -123,11 +122,7 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as developer, I've worked on a number of projects ,some so small like console applications that I made to grasp 
-              important concepts and some school projects and some for clients.That said these are one of the most notable projects I've worked on
-          
-            </p>
+            
               </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
