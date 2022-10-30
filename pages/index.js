@@ -17,8 +17,8 @@ import web2 from "../public/web2.png";
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
-
+const [darkMode, setDarkMode] = useState(false);
+//const [navbar, setNavbar] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -121,27 +121,32 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
-            
-              </div>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>  
+          </div>
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            Over my course of my career as a Junior Software Engineer I have worked on a number of projects , some small like
+            console applications and some big like web applications for clients. I have enojoyed working with other developers and people from different backgrounds
+            and I have learnt a lot from them. I have also learnt a lot from my own mistakes and I am looking forward to learning more from the Sovtech team. 
+            That said here are some of my most notable projects.
+          </p>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Image
+              <a href="https://www.ear-academy.com/">  <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
-              />
+              /></a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
+              <a href="https://innobeedigital.com/"><Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web2}
-              />
+              /></a>
             </div>
           </div>
         </section>
