@@ -109,12 +109,15 @@ const [darkMode, setDarkMode] = useState(false);
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Other Credits </h3>
               <p className="py-2">
-              
+                For troubleshooting and learning I used the following resources:
               </p>
+              
+              
               
               <p className="text-gray-800 py-1">Stackoverflow</p>
               <p className="text-gray-800 py-1">YouTube</p>
               <p className="text-gray-800 py-1">Tailwindcss</p>
+              <p className="text-gray-800 py-1">GeeksforGeeks</p>
               
             </div>
           </div>
